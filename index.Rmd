@@ -1,0 +1,18 @@
+---
+title: "An RMarkdown template"
+author: "Captain Nobody"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+output:
+    bookdown::gitbook:
+        split_by: section
+    bookdown::pdf_book: default
+documentclass: report
+bibliography: ["ref.bib"]
+biblio-style: amsplain
+link-citations: yes
+---
+
+# Abstract
+
+A concise, attractive summary of the contents
