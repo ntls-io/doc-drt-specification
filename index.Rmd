@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 site: "bookdown::bookdown_site"
 output:
     bookdown::gitbook:
-        split_by: section
+        split_by: chapter
     bookdown::pdf_book:
         keep_tex: TRUE
         latex_engine: "xelatex"
