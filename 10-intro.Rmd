@@ -1,1 +1,23 @@
 # Introduction
+
+## Terminology
+
+### Requirement language
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
+"SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be
+interpreted as described in RFC 2119.
+
+The terms "JSON", "JSON text", "JSON value", "member", "element", "object",
+"array", "number", "string", "boolean", "true", "false", and "null" in this
+document are to be interpreted as defined in RFC 8259.
+
+### Fundamental concepts
+
+The following primitives, along with their intended interpretation, will be
+employed throughout the remainder of the text:
+- *Data provider*: any entity with a known, fixed identity that may serve as a
+  source of data;
+- *Data consumer*: any entity with a known, fixed identity that seeks to
+  process data with the aim of producing derived information;
+- *Schema*: the semantics and types associated with a given set of data;
