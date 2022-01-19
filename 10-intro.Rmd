@@ -6,11 +6,13 @@
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be
-interpreted as described in RFC 2119.
+interpreted as described in
+[RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119)
 
 The terms "JSON", "JSON text", "JSON value", "member", "element", "object",
 "array", "number", "string", "boolean", "true", "false", and "null" in this
-document are to be interpreted as defined in RFC 8259.
+document are to be interpreted as defined in
+[RFC 8259](https://datatracker.ietf.org/doc/html/rfc8259)
 
 ### Fundamental concepts
 
