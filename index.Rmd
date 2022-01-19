@@ -10,10 +10,12 @@ output:
         keep_tex: TRUE
         latex_engine: "xelatex"
         extra_dependencies: ["hyperref"]
-documentclass: report
+documentclass: article
 bibliography: "ref.bib"
 biblio-style: amsplain
 link-citations: yes
 ---
 
-# Abstract
+# Abstract {-}
+
+\newpage{}
