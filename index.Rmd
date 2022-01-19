@@ -14,5 +14,3 @@ link-citations: yes
 ---
 
 # Abstract
-
-A concise, attractive summary of the contents
