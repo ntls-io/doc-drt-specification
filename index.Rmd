@@ -6,7 +6,10 @@ site: "bookdown::bookdown_site"
 output:
     bookdown::gitbook:
         split_by: section
-    bookdown::pdf_book: default
+    bookdown::pdf_book:
+        keep_tex: TRUE
+        latex_engine: "xelatex"
+        extra_dependencies: ["hyperref"]
 documentclass: report
 bibliography: "ref.bib"
 biblio-style: amsplain
