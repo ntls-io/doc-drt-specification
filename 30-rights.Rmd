@@ -1,0 +1,6 @@
+# Rights
+
+## Structure
+
+<!-- start a new page for the bibliography -->
+\newpage
