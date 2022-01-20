@@ -18,6 +18,7 @@ document are to be interpreted as defined in
 
 The following primitives, along with their intended interpretation, will be
 employed throughout the remainder of the text:
+
 - *Data provider*: any entity with a known, fixed identity that may serve as a
   source of data;
 - *Data consumer*: any entity with a known, fixed identity that seeks to
@@ -30,7 +31,7 @@ The terminology above equips us with the necessary conceptual framework within
 which we will define a *Digital Rights Token* or *DRT*, as it will be
 henceforth abbreviated.
 
-Na\"ively, a DRT is merely the digital representation of an
+Na\text{\"i}vely, a DRT is merely the digital representation of an
 instance of a right issued by some data provider to any data consumer.  It is
 the purpose of this document formalize certain aspects, while leaving certain
 aspects up to implementors.
