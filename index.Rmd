@@ -21,10 +21,11 @@ urlcolor: red
 
 Digital Rights Tokens represent the right, as issued by a *data provider*, to
 execute an authorized, transparent computation on a given data set.  The latter
-is assumed only be known up to its structure while individual data points are
-never exposed to either the *data consumer* or the platform on which the
-computation itself is performed.  The reference implementation utilizes the
+is assumed only be known up to its structure.  Meanwhile, individual data points
+are never disclosed to the *data consumer* or even the execution platform
+itself.  The reference implementation utilizes the
 [Intel SGX](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html)
-technology.
+technology to provide isolation between the host environment and the data being
+processed.
 
 \newpage{}
