@@ -22,16 +22,16 @@ employed throughout the remainder of the text:
 - *Data provider*: any entity with a known, fixed identity that may serve as a
   source of data;
 - *Data consumer*: any entity with a known, fixed identity that seeks to
-  process data with the aim of producing derived information;
+  process data and derive new information from the results;
 - *Schema*: the semantics and types associated with a given set of data;
-- *Right*: the right to run an agreed-upon computation, issue by a data
+- *Right*: the right to run an agreed-upon computation as issued by a data
   provider to a data consumer;
 
 The terminology above equips us with the necessary conceptual framework within
-which we will define a *Digital Rights Token* or *DRT*, as it will be
-henceforth abbreviated.
+which we will define a *Digital Rights Token*, or *DRT*, as it will be
+abbreviated henceforth.
 
 Na\text{\"i}vely, a DRT is merely the digital representation of an
 instance of a right issued by some data provider to any data consumer.  It is
-the purpose of this document formalize certain aspects, while leaving certain
-aspects up to implementations.
+the purpose of this document formalize certain related aspects in order to
+maintain a standard, while still leaving some room for growth.
