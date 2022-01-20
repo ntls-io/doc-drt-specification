@@ -7,6 +7,7 @@ output:
     bookdown::gitbook:
         split_by: chapter
     bookdown::pdf_book:
+        keep_md: TRUE
         keep_tex: TRUE
         latex_engine: "xelatex"
         extra_dependencies: ["hyperref"]
@@ -17,5 +18,13 @@ link-citations: yes
 ---
 
 # Abstract {-}
+
+Digital Rights Tokens represent the right, as issued by a *data provider*, to
+execute an authorized, transparent computation on a given data set.  The latter
+is assumed only be known up to its structure while individual data points are
+never exposed to either the *data consumer* or the platform on which the
+computation itself is performed.  The reference implementation utilizes the
+[Intel SGX](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html)
+technology.
 
 \newpage{}
