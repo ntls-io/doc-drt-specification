@@ -1,6 +1,45 @@
-# Rights
+# Digital Rights Token
 
 ## Structure
+
+Any DRT implementation MUST allow the following fields and their corresponding
+types:
+
+- *binaryUri:* text
+- *providerId:* number,
+- *schema:* JSON document,
+- *signedHash:* string,
+- *trustRoots:* array of numbers
+
+Additional fields MAY be defined by an implementation.
+
+## Semantics
+
+### binaryUri
+
+A [URI](https://www.rfc-editor.org/rfc/rfc8615.html) for the intended binary
+application to be executed on a provided dataset.
+
+### providerId
+
+ The *unique* identifier for a given data provider.
+
+### schema
+
+Defined by the
+[JSON Schema Core](https://json-schema.org/draft/2020-12/json-schema-core.html)
+specifcation.
+
+### signedHash
+
+The cryptographic hash of the concatenation of `schema` and the intended
+binary, in that REQUIRED order, when considered (respectively) as sequences of
+octets. The resulting value MUST be encoded in `Base64` format.
+
+### trustRoots
+
+The *unique* identifiers of the trust anchors, in a particular network,
+as specified by this DRT.
 
 <!-- start a new page for the bibliography -->
 \newpage
