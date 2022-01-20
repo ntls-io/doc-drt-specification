@@ -1,6 +1,6 @@
 ---
 title: "Digital Right Tokens"
-author: "Jean-Pierre de Villiers"
+author: ["Nautilus Enterprises PTY LTD.", "Jean-Pierre de Villiers"]
 date: "`r Sys.Date()`"
 site: "bookdown::bookdown_site"
 output:
