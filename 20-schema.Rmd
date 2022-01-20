@@ -1,1 +1,13 @@
 # Schema
+
+In the informal sense, the *data schema* is simply the particular structuring of
+a given data set and the underlying (data) types involved.  In order to maximize
+interoperability all implementations MUST implement schema in the sense
+described by the
+[JSON Schema](https://json-schema.org/draft/2020-12/json-schema-core.html)
+formal specification.
+
+Compliant implementations MAY allow additional formal schemas but this is not
+REQUIRED by this version of the specification.  Note that, in future, additional
+schemas might be added or removed to any requirement classification, in the sense
+of the requirement language.
