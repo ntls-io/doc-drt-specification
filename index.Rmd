@@ -10,11 +10,11 @@ output:
         keep_md: TRUE
         keep_tex: TRUE
         latex_engine: "xelatex"
-        extra_dependencies: ["hyperref"]
 documentclass: article
 bibliography: "ref.bib"
 biblio-style: amsplain
 link-citations: yes
+urlcolor: red
 ---
 
 # Abstract {-}
