@@ -34,4 +34,4 @@ henceforth abbreviated.
 Na\text{\"i}vely, a DRT is merely the digital representation of an
 instance of a right issued by some data provider to any data consumer.  It is
 the purpose of this document formalize certain aspects, while leaving certain
-aspects up to implementors.
+aspects up to implementations.
