@@ -7,6 +7,11 @@ described by the
 [JSON Schema](https://json-schema.org/draft/2020-12/json-schema-core.html)
 formal specification.
 
+Take note, however, that this aforementioned specification is a **work in
+progress** and is thus subject to abrupt and unexpected change.  At the time of
+writing, this is part of the due course for technologies and specifcations in
+areas related to this document.
+
 Compliant implementations MAY allow additional formal schemas but this is not
 REQUIRED by this version of the specification.  Note that, in future, additional
 schemas might be added or removed to any requirement classification, in the sense
